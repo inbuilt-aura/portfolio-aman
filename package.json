@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@next/swc-win32-x64-msvc": "^13.5.2",
     "@react-email/components": "^0.0.7",
     "@react-email/tailwind": "^0.0.8",
     "@types/node": "20.3.2",
@@ -36,5 +35,6 @@
   },
   "devDependencies": {
     "@types/react-vertical-timeline-component": "^3.3.3"
+
   }
 }
