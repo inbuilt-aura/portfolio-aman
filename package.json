@@ -35,7 +35,7 @@
   },
   "devDependencies": {
     "@types/react-vertical-timeline-component": "^3.3.3",
-    "@next/swc-win32-x64-msvc": "^13.5.2",
+    "@next/swc-win32-x64-msvc": "^13.5.2"
 
   }
 }
