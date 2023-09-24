@@ -11,7 +11,7 @@ import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 
-import profile from '@/public/profile.jpeg';
+import profile from "@/public/profile.jpeg";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -68,8 +68,10 @@ export default function Intro() {
         <span className="font-medium">Hello, I'm Aman,</span>a{" "}
         <span className="font-medium">full-stack developer</span> with{" "}
         <span className="font-medium">1+ years</span> of experience. I enjoy
-        building responsive <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">React(Next.js)</span>.Currently, looking for {" "}  <span className="italic">internship or remote job </span> as a full-stack developer.
+        building responsive <span className="italic">sites & apps</span>. My
+        focus is <span className="underline">React(Next.js)</span>.Currently,
+        looking for <span className="italic">internship or remote job </span> as
+        a full-stack developer.
       </motion.h1>
 
       <motion.div
@@ -91,7 +93,7 @@ export default function Intro() {
           Contact me here{" "}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
-<hr />
+        <hr />
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
           href="/CV.pdf"
@@ -100,7 +102,7 @@ export default function Intro() {
           Download CV{""}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
-<hr />
+        <hr />
         <a
           className="bg-white p-4 text-gray-800 hover:text-gray-900 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/20 dark:text-white/60"
           href="https://www.linkedin.com/in/aman-maddheshiya-b437581b1/"
