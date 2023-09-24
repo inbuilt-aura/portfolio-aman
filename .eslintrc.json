@@ -1,3 +1,14 @@
+<<<<<<< HEAD
 {  
    "extends": ["next/babel","next/core-web-vitals"]
 }
+=======
+{
+  "extends": "next",
+  "rules": {
+    "react/no-unescaped-entities": "off",
+    "@next/next/no-page-custom-font": "off"
+  }
+
+}
+>>>>>>> 78db6d68ed974d8918350bdd6dfb4148c784f838
