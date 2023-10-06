@@ -7,11 +7,11 @@ import ThemeSwitch from "@/components/theme-switch";
 import ThemeContextProvider from "@/context/theme-context";
 import { Toaster } from "react-hot-toast";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ['latin'], display: 'swap', adjustFontFallback: false});
 
 export const metadata = {
   title: "Aman | Personal Portfolio",
-  description: "A full-stack developer with 1+ years of experience.",
+  description: "A full-stack developer with almost 2 years of experience.",
 };
 
 export default function RootLayout({
