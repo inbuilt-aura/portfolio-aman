@@ -57,8 +57,8 @@ export const experiencesData = [
     location: "Remote",
     description:
       "I'm now a full-stack developer working as a freelancer and looking for internship or remote job. My techstack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities and if possible would love to work remotely.",
-    icon: React.createElement(FaReact),
-    date: "2023 - present",
+    icon: React.createElement(CgWorkAlt),
+    date: "2023 June - present",
   },
 ] as const;
 
