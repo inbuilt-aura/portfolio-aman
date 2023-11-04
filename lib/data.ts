@@ -37,15 +37,15 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "B.Tech C.S. final year",
+    title: "B.Tech C.S.E. final year",
     location: "Gorakhpur",
     description:
-      "I currently am in my final year of B.Tech C.S.E. Currently, i am looking for internship in my domain.",
+      "Studying currently as C.S.E. student at KIPM-COLLEGE OF ENGINEERING AND TECHNOLOGY in Gida. ",
     icon: React.createElement(LuGraduationCap),
     date: "2023-present",
   },
   {
-    title: "Full-stack develoeper",
+    title: "Full-stack developer",
     location: "Remote",
     description:
       "Currently started working as a full-stack developer intern at Nyahari. Working on their website and re-designing their website with frontend and backend.",
@@ -56,9 +56,9 @@ export const experiencesData = [
     title: "Full-Stack Developer",
     location: "Remote",
     description:
-      "I'm now a full-stack developer working as a freelancer and looking for internship or remote job. My techstack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities and if possible would love to work remotely.",
+      "Worked as a freelancer and looking for internship or remote job. My techstack includes React(Nextjs), MERN Stack, Tailwind CSS and Typescript . I'm open for part-tiem/full-time opportunities and flexible for further discussion.",
     icon: React.createElement(CgWorkAlt),
-    date: "2023 June - present",
+    date: "2023 June - 2023 Sept",
   },
 ] as const;
 
