@@ -45,12 +45,12 @@ export const experiencesData = [
     date: "2023-present",
   },
   {
-    title: "Front-End Developer",
+    title: "Full-stack develoeper",
     location: "Remote",
     description:
-      "I worked as a front-end developer for 1 years in as a freelancer and as an intern. Later on, i switched to a full-stack developer building full stack apps from scratch.",
+      "Currently started working as a full-stack developer intern at Nyahari. Working on their website and re-designing their website with frontend and backend.",
     icon: React.createElement(CgWorkAlt),
-    date: "2022 - 2023",
+    date: "2022 October - Jan 2023",
   },
   {
     title: "Full-Stack Developer",
@@ -125,6 +125,7 @@ export const skillsData = [
   "Git",
   "Tailwind",
   "Prisma",
+  "Redis",
   "Redux",
   "GraphQL",
   "Shadcian-Ui",
