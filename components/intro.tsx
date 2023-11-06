@@ -71,7 +71,7 @@ export default function Intro() {
         building responsive <span className="serif">sites & apps</span>. My
         current focus is <span className="sans underline">React(Next.js) with MERN stack</span>.
          Currently, working at  <span className="sans underline">Nyahari </span> as a
-        a full-stack developer intern.{" "} Open for opportunities. 
+         full-stack developer intern.{" "} Open for opportunities. 
       </motion.h1>
 
       <motion.div
