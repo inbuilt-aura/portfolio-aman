@@ -21,16 +21,16 @@ export default function About() {
       <p className="mb-3">
        A full stack developer with {" "}
         <span className="font-medium shadow:sm">almost 2 yrs.</span> of experience. Currently, i am a {" "}  <span className="font-medium">B.Tech C.S.E. final year </span> student
-and also working as a <span className="font-medium"> Full Stack Developer Intern at {" "} Nyahari.</span>{" "}
+and also working as a <span className="font-medium"> Full Stack Developer at {" "} PESU Venture Labs.</span>{" "}
         <span className="font-medium">My favorite part of programming</span> is the
         problem-solving aspect and to create something new. I love the
         feeling of finally figuring out a solution for a problem. My core stacks are{" "}
         <span className="font-medium">
          Nextjs(React), MERN Stack, Redis,Tailwind CSS and Typescript.
         </span>
-        . I am also familiar with Postgresql and Prisma. I am always eager to
-        learn new technologies and to make current one better.Open for a{" "}
-        <span className="font-medium">full-time/ intern in-office/remote position</span> as a full stack developer to enter into new corporate world.
+         I am also familiar with Postgresql and Prisma. I am always eager to
+        learn new technologies and to make current one better.Open for new 
+        opportunities.
       </p>
 
       <p>

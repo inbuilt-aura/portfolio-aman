@@ -70,8 +70,8 @@ export default function Intro() {
         <span className="font-serif">almost {" "} 2 years</span> of experience. I enjoy
         building responsive <span className="serif">sites & apps</span>. My
         current focus is <span className="sans underline">React(Next.js) with MERN stack</span>.
-         Currently, working at  <span className="sans underline">Nyahari </span> as a
-         full-stack developer intern.{" "} Open for opportunities. 
+         Currently, started working at  <span className="sans underline">PESU Venture Labs. </span> as a
+         full-stack developer .{" "} Open for new opportunities. 
       </motion.h1>
 
       <motion.div
