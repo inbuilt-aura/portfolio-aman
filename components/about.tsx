@@ -36,7 +36,7 @@ and also working as a <span className="font-medium"> Full Stack Developer at {" 
       <p>
         <span className="italic">When I'm not coding</span>, I enjoy playing
         video games, watching science documentateries or anime. I also enjoy{" "}
-        <span className="font-medium">making edits and AMVs.</span>.
+        <span className="font-medium">making edits and AMVs.</span>
       </p>
     </motion.section>
   );
