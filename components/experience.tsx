@@ -88,7 +88,7 @@ function ExperienceItem({ item, index, theme }: ExperienceItemProps) {
       <div
         className={`w-[300px] lg:w-1/2 ml-20 sm:ml-0 md:w-1/2 ${
           index % 2 === 0
-            ? "md:pr-8 md:text-left sm:-ml-5"
+            ? "md:pr-8 md:text-left sm:-ml-4"
             : "md:pl-8 md:ml-auto sm:-mr-7"
         }`}
       >
