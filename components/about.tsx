@@ -20,13 +20,12 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
        A full stack developer with {" "}
-        <span className="font-medium shadow:sm">almost 2 yrs.</span> of experience. Currently, i am a {" "}  <span className="font-medium">B.Tech C.S.E. final year </span> student
-and also working as a <span className="font-medium"> Full Stack Developer at {" "} PESU Venture Labs.</span>{" "}
+        <span className="font-semibold shadow:sm">3 yrs.</span> of experience. I am Founder of {" "}  <span className="font-semibold">Debugging.Ai </span> <span className="font-medium">expected to launch in last of December.</span> and working as a freelancer or contract at multiple projects including  <span className="font-semibold"> healthcare and Saas. {" "} </span>{" "}
         <span className="font-medium">My favorite part of programming</span> is the
         problem-solving aspect and to create something new. I love the
         feeling of finally figuring out a solution for a problem. My core stacks are{" "}
         <span className="font-medium">
-         Nextjs(React), MERN Stack, Redis,Tailwind CSS and Typescript.
+         Nextjs(React),React Native, MERN Stack, Redis,Tailwind CSS and Typescript.
         </span>
          I am also familiar with Postgresql and Prisma. I am always eager to
         learn new technologies and to make current one better.Open for new 

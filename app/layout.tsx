@@ -7,7 +7,11 @@ import ThemeSwitch from "@/components/theme-switch";
 import ThemeContextProvider from "@/context/theme-context";
 import { Toaster } from "react-hot-toast";
 
-const inter = Inter({ subsets: ['latin'], display: 'swap', adjustFontFallback: false});
+const inter = Inter({
+  subsets: ["latin"],
+  display: "swap",
+  adjustFontFallback: false,
+});
 
 export const metadata = {
   title: "Aman | Personal Portfolio",
@@ -21,7 +25,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="!scroll-smooth">
-     
       <body
         className={`${inter.className} bg-gray-200 text-gray-900 relative pt-28 sm:pt-36 dark:bg-gray-700 dark:text-gray-100 dark:text-opacity-80`}
       >

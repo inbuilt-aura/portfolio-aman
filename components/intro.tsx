@@ -61,17 +61,15 @@ export default function Intro() {
       </div>
 
       <motion.h1
-        className="mb-10 mt-4 px-4 text-2xl font-serif !leading-[1.5] sm:text-4xl"
+        className="mb-10 mt-4 px-4 text-xl font-serif !leading-[1.5] sm:text-4xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-serif">Hello, I'm Aman.</span>A{" "}
         <span className="font-sans">full-stack developer</span> with{" "}
-        <span className="font-serif">almost {" "} 2 years</span> of experience. I enjoy
-        building responsive <span className="serif">sites & apps</span>. My
-        current focus is <span className="sans underline">React(Next.js) with MERN stack</span>.
-         Currently, started working at  <span className="sans underline">PESU Venture Labs. </span> as a
-         full-stack developer .{" "} Open for new opportunities. 
+        <span className="font-sans"> {" "} 3 years</span> of experience. I am building <span className="serif font-semibold">Debugging.ai</span>. My
+        current focus is <span className="sans underline">building SAAS products and scale them</span>.
+         Currently,woking on my startup and  <span className="sans underline">as a freelancer. </span> {" "} Open for new opportunities. 
       </motion.h1>
 
       <motion.div

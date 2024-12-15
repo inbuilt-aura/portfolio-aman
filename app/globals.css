@@ -10,6 +10,49 @@ html.dark {
   --line-color: rgba(255, 255, 255, 0.2);
 }
 
-.borderBlack {
-  @apply border border-black/10;
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-40px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
+
+/* Remove or comment out these unused animations */
+/* @keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+} */
+
+/* @keyframes slideInFromRight {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+} */
+
+.show {
+  animation: slideInFromTop 0.5s ease-out forwards;
+}
+
+.show-from-top {
+  animation: slideInFromTop 0.5s ease-out forwards;
+}
+
+/* .show:nth-child(even) {
+  animation: slideInFromRight 0.5s ease-out forwards;
+} */
+
