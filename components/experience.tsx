@@ -23,7 +23,7 @@ export default function Experience() {
     <section ref={ref} id="experience" className="scroll-mt-28 mb-20 sm:mb-34">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading>My Experience</SectionHeading>
-        <div className="relative mt-10">
+        <div className="relative mt-10 ml-6 sm:ml-0">
           <div
             className={`absolute left-4 md:left-1/2 w-[4px] h-full ${
               theme === "light" ? "bg-gray-800" : "bg-white"
@@ -83,12 +83,12 @@ function ExperienceItem({ item, index, theme }: ExperienceItemProps) {
   return (
     <div
       ref={ref}
-      className={`mb-12 md:mb-16 flex flex-col md:flex-row items-center opacity-0 transition-all duration-500 ease-out translate-y-[-50px]`}
+      className={`mb-12 md:mb-16 mr-4 sm:mr-0 flex flex-col md:flex-row items-center opacity-0 transition-all duration-500 ease-out translate-y-[-50px]`}
     >
       <div
-        className={`w-[300px] lg:w-1/2 ml-20 sm:ml-0 md:w-1/2 ${
+        className={`w-280px] lg:w-1/2 ml-20 sm:ml-0 md:w-1/2 ${
           index % 2 === 0
-            ? "md:pr-8 md:text-left sm:-ml-6"
+            ? "md:pr-8 md:text-left sm:-ml-8"
             : "md:pl-8 md:ml-auto sm:-mr-7"
         }`}
       >
@@ -167,4 +167,3 @@ function ExperienceItem({ item, index, theme }: ExperienceItemProps) {
     </div>
   );
 }
-
